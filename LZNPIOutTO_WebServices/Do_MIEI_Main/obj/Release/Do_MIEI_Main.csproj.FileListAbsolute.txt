@@ -1,0 +1,27 @@
+D:\MES2\WebServices资料\InterLock_NPI_TEST Web Services\Do_MIEI_Main\bin\Release\Do_MIEI_Main.dll
+D:\MES2\WebServices资料\InterLock_NPI_TEST Web Services\Do_MIEI_Main\bin\Release\Do_MIEI_Main.pdb
+D:\MES2\WebServices资料\InterLock_NPI_TEST Web Services\Do_MIEI_Main\obj\Release\Do_MIEI_Main.csproj.CoreCompileInputs.cache
+D:\MES2\WebServices资料\InterLock_NPI_TEST Web Services\Do_MIEI_Main\obj\Release\Do_MIEI_Main.dll
+D:\MES2\WebServices资料\InterLock_NPI_TEST Web Services\Do_MIEI_Main\obj\Release\Do_MIEI_Main.pdb
+D:\MES\InterLock_NPI_TEST Web Services\Do_MIEI_Main\bin\Release\Do_MIEI_Main.dll
+D:\MES\InterLock_NPI_TEST Web Services\Do_MIEI_Main\bin\Release\Do_MIEI_Main.pdb
+D:\MES\InterLock_NPI_TEST Web Services\Do_MIEI_Main\obj\Release\Do_MIEI_Main.csproj.CoreCompileInputs.cache
+D:\MES\InterLock_NPI_TEST Web Services\Do_MIEI_Main\obj\Release\Do_MIEI_Main.dll
+D:\MES\InterLock_NPI_TEST Web Services\Do_MIEI_Main\obj\Release\Do_MIEI_Main.pdb
+D:\MES\InterLock_NPI_TEST Web Services\Do_MIEI_Main\obj\Release\Do_MIEI_Main.csproj.AssemblyReference.cache
+E:\zj\LZ\LZNPI_WebServices\Do_MIEI_Main\bin\Release\Do_MIEI_Main.dll
+E:\zj\LZ\LZNPI_WebServices\Do_MIEI_Main\bin\Release\Do_MIEI_Main.pdb
+E:\zj\LZ\LZNPI_WebServices\Do_MIEI_Main\obj\Release\Do_MIEI_Main.csproj.AssemblyReference.cache
+E:\zj\LZ\LZNPI_WebServices\Do_MIEI_Main\obj\Release\Do_MIEI_Main.csproj.CoreCompileInputs.cache
+E:\zj\LZ\LZNPI_WebServices\Do_MIEI_Main\obj\Release\Do_MIEI_Main.dll
+E:\zj\LZ\LZNPI_WebServices\Do_MIEI_Main\obj\Release\Do_MIEI_Main.pdb
+E:\zj\LZ\LZNPI_WebServices\Do_MIEI_Main\bin\Release\System.Net.Http.dll
+E:\zj\LZ\LZNPI_WebServices\Do_MIEI_Main\obj\Release\Do_MIEI_Main.csproj.CopyComplete
+E:\zj\LZ\LZNPIOutTO_WebServices\Do_MIEI_Main\bin\Release\Do_MIEI_Main.dll
+E:\zj\LZ\LZNPIOutTO_WebServices\Do_MIEI_Main\bin\Release\Do_MIEI_Main.pdb
+E:\zj\LZ\LZNPIOutTO_WebServices\Do_MIEI_Main\bin\Release\System.Net.Http.dll
+E:\zj\LZ\LZNPIOutTO_WebServices\Do_MIEI_Main\obj\Release\Do_MIEI_Main.csproj.AssemblyReference.cache
+E:\zj\LZ\LZNPIOutTO_WebServices\Do_MIEI_Main\obj\Release\Do_MIEI_Main.csproj.CoreCompileInputs.cache
+E:\zj\LZ\LZNPIOutTO_WebServices\Do_MIEI_Main\obj\Release\Do_MIEI_Main.csproj.CopyComplete
+E:\zj\LZ\LZNPIOutTO_WebServices\Do_MIEI_Main\obj\Release\Do_MIEI_Main.dll
+E:\zj\LZ\LZNPIOutTO_WebServices\Do_MIEI_Main\obj\Release\Do_MIEI_Main.pdb

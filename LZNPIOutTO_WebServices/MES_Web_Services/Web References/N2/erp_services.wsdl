@@ -1,0 +1,1360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:ns="http://erpwss.webservices.services.aisino.morelean.com" xmlns:ns1="http://org.apache.axis2/xsd" targetNamespace="http://erpwss.webservices.services.aisino.morelean.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation>erp_services</wsdl:documentation>
+  <wsdl:types>
+    <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://erpwss.webservices.services.aisino.morelean.com">
+      <xs:element name="replace">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="args0" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="replaceResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="beTrue">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="args0" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="beTrueResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="erp_servicesInterruptedException">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="InterruptedException" nillable="true" type="xs:anyType" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncBomInfo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="args0" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncBomInfoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncTestInfo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="args0" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncTestInfoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncIMEIInfo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="args0" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncIMEIInfoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncOrderInfo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="args0" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncOrderInfoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncProductMaterialInfo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="args0" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncProductMaterialInfoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncSalesOrderInfo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="args0" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncSalesOrderInfoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncOutStockDocInfo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="args0" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncOutStockDocInfoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncCustomerInfo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="args0" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncCustomerInfoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncWarehouseInfo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="args0" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncWarehouseInfoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncAllotDocInfo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="args0" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncAllotDocInfoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncProductOrderInfo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="args0" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncProductOrderInfoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncAccountAliasInfo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="args0" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncAccountAliasInfoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncMaterialInfo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="args0" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncMaterialInfoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncInStockDocInfo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="args0" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncInStockDocInfoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncUploadParameters">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="args0" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncUploadParametersResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncCheckFinishAllStation">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="args0" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncCheckFinishAllStationResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncCheckStation">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="args0" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncCheckStationResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncSaveMidInfo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="args0" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncSaveMidInfoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncSupplierInfo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="args0" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncSupplierInfoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncSetStation">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="args0" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncSetStationResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncPurchaseOrderInfo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="args0" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncPurchaseOrderInfoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="syncPurchaseOrderInfoRequest">
+    <wsdl:part name="parameters" element="ns:syncPurchaseOrderInfo" />
+  </wsdl:message>
+  <wsdl:message name="syncPurchaseOrderInfoResponse">
+    <wsdl:part name="parameters" element="ns:syncPurchaseOrderInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="erp_servicesInterruptedException">
+    <wsdl:part name="parameters" element="ns:erp_servicesInterruptedException" />
+  </wsdl:message>
+  <wsdl:message name="syncWarehouseInfoRequest">
+    <wsdl:part name="parameters" element="ns:syncWarehouseInfo" />
+  </wsdl:message>
+  <wsdl:message name="syncWarehouseInfoResponse">
+    <wsdl:part name="parameters" element="ns:syncWarehouseInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="syncAccountAliasInfoRequest">
+    <wsdl:part name="parameters" element="ns:syncAccountAliasInfo" />
+  </wsdl:message>
+  <wsdl:message name="syncAccountAliasInfoResponse">
+    <wsdl:part name="parameters" element="ns:syncAccountAliasInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="syncTestInfoRequest">
+    <wsdl:part name="parameters" element="ns:syncTestInfo" />
+  </wsdl:message>
+  <wsdl:message name="syncTestInfoResponse">
+    <wsdl:part name="parameters" element="ns:syncTestInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="syncCheckFinishAllStationRequest">
+    <wsdl:part name="parameters" element="ns:syncCheckFinishAllStation" />
+  </wsdl:message>
+  <wsdl:message name="syncCheckFinishAllStationResponse">
+    <wsdl:part name="parameters" element="ns:syncCheckFinishAllStationResponse" />
+  </wsdl:message>
+  <wsdl:message name="beTrueRequest">
+    <wsdl:part name="parameters" element="ns:beTrue" />
+  </wsdl:message>
+  <wsdl:message name="beTrueResponse">
+    <wsdl:part name="parameters" element="ns:beTrueResponse" />
+  </wsdl:message>
+  <wsdl:message name="syncOrderInfoRequest">
+    <wsdl:part name="parameters" element="ns:syncOrderInfo" />
+  </wsdl:message>
+  <wsdl:message name="syncOrderInfoResponse">
+    <wsdl:part name="parameters" element="ns:syncOrderInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="syncInStockDocInfoRequest">
+    <wsdl:part name="parameters" element="ns:syncInStockDocInfo" />
+  </wsdl:message>
+  <wsdl:message name="syncInStockDocInfoResponse">
+    <wsdl:part name="parameters" element="ns:syncInStockDocInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="syncIMEIInfoRequest">
+    <wsdl:part name="parameters" element="ns:syncIMEIInfo" />
+  </wsdl:message>
+  <wsdl:message name="syncIMEIInfoResponse">
+    <wsdl:part name="parameters" element="ns:syncIMEIInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="syncSaveMidInfoRequest">
+    <wsdl:part name="parameters" element="ns:syncSaveMidInfo" />
+  </wsdl:message>
+  <wsdl:message name="syncSaveMidInfoResponse">
+    <wsdl:part name="parameters" element="ns:syncSaveMidInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="syncSupplierInfoRequest">
+    <wsdl:part name="parameters" element="ns:syncSupplierInfo" />
+  </wsdl:message>
+  <wsdl:message name="syncSupplierInfoResponse">
+    <wsdl:part name="parameters" element="ns:syncSupplierInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="syncProductOrderInfoRequest">
+    <wsdl:part name="parameters" element="ns:syncProductOrderInfo" />
+  </wsdl:message>
+  <wsdl:message name="syncProductOrderInfoResponse">
+    <wsdl:part name="parameters" element="ns:syncProductOrderInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="syncOutStockDocInfoRequest">
+    <wsdl:part name="parameters" element="ns:syncOutStockDocInfo" />
+  </wsdl:message>
+  <wsdl:message name="syncOutStockDocInfoResponse">
+    <wsdl:part name="parameters" element="ns:syncOutStockDocInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="syncCheckStationRequest">
+    <wsdl:part name="parameters" element="ns:syncCheckStation" />
+  </wsdl:message>
+  <wsdl:message name="syncCheckStationResponse">
+    <wsdl:part name="parameters" element="ns:syncCheckStationResponse" />
+  </wsdl:message>
+  <wsdl:message name="syncAllotDocInfoRequest">
+    <wsdl:part name="parameters" element="ns:syncAllotDocInfo" />
+  </wsdl:message>
+  <wsdl:message name="syncAllotDocInfoResponse">
+    <wsdl:part name="parameters" element="ns:syncAllotDocInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="syncSalesOrderInfoRequest">
+    <wsdl:part name="parameters" element="ns:syncSalesOrderInfo" />
+  </wsdl:message>
+  <wsdl:message name="syncSalesOrderInfoResponse">
+    <wsdl:part name="parameters" element="ns:syncSalesOrderInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="syncCustomerInfoRequest">
+    <wsdl:part name="parameters" element="ns:syncCustomerInfo" />
+  </wsdl:message>
+  <wsdl:message name="syncCustomerInfoResponse">
+    <wsdl:part name="parameters" element="ns:syncCustomerInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="syncMaterialInfoRequest">
+    <wsdl:part name="parameters" element="ns:syncMaterialInfo" />
+  </wsdl:message>
+  <wsdl:message name="syncMaterialInfoResponse">
+    <wsdl:part name="parameters" element="ns:syncMaterialInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="replaceRequest">
+    <wsdl:part name="parameters" element="ns:replace" />
+  </wsdl:message>
+  <wsdl:message name="replaceResponse">
+    <wsdl:part name="parameters" element="ns:replaceResponse" />
+  </wsdl:message>
+  <wsdl:message name="syncBomInfoRequest">
+    <wsdl:part name="parameters" element="ns:syncBomInfo" />
+  </wsdl:message>
+  <wsdl:message name="syncBomInfoResponse">
+    <wsdl:part name="parameters" element="ns:syncBomInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="syncSetStationRequest">
+    <wsdl:part name="parameters" element="ns:syncSetStation" />
+  </wsdl:message>
+  <wsdl:message name="syncSetStationResponse">
+    <wsdl:part name="parameters" element="ns:syncSetStationResponse" />
+  </wsdl:message>
+  <wsdl:message name="syncUploadParametersRequest">
+    <wsdl:part name="parameters" element="ns:syncUploadParameters" />
+  </wsdl:message>
+  <wsdl:message name="syncUploadParametersResponse">
+    <wsdl:part name="parameters" element="ns:syncUploadParametersResponse" />
+  </wsdl:message>
+  <wsdl:message name="syncProductMaterialInfoRequest">
+    <wsdl:part name="parameters" element="ns:syncProductMaterialInfo" />
+  </wsdl:message>
+  <wsdl:message name="syncProductMaterialInfoResponse">
+    <wsdl:part name="parameters" element="ns:syncProductMaterialInfoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="erp_servicesPortType">
+    <wsdl:operation name="syncPurchaseOrderInfo">
+      <wsdl:input wsaw:Action="urn:syncPurchaseOrderInfo" message="ns:syncPurchaseOrderInfoRequest" />
+      <wsdl:output wsaw:Action="urn:syncPurchaseOrderInfoResponse" message="ns:syncPurchaseOrderInfoResponse" />
+      <wsdl:fault wsaw:Action="urn:syncPurchaseOrderInfoerp_servicesInterruptedException" name="erp_servicesInterruptedException" message="ns:erp_servicesInterruptedException" />
+    </wsdl:operation>
+    <wsdl:operation name="syncWarehouseInfo">
+      <wsdl:input wsaw:Action="urn:syncWarehouseInfo" message="ns:syncWarehouseInfoRequest" />
+      <wsdl:output wsaw:Action="urn:syncWarehouseInfoResponse" message="ns:syncWarehouseInfoResponse" />
+      <wsdl:fault wsaw:Action="urn:syncWarehouseInfoerp_servicesInterruptedException" name="erp_servicesInterruptedException" message="ns:erp_servicesInterruptedException" />
+    </wsdl:operation>
+    <wsdl:operation name="syncAccountAliasInfo">
+      <wsdl:input wsaw:Action="urn:syncAccountAliasInfo" message="ns:syncAccountAliasInfoRequest" />
+      <wsdl:output wsaw:Action="urn:syncAccountAliasInfoResponse" message="ns:syncAccountAliasInfoResponse" />
+      <wsdl:fault wsaw:Action="urn:syncAccountAliasInfoerp_servicesInterruptedException" name="erp_servicesInterruptedException" message="ns:erp_servicesInterruptedException" />
+    </wsdl:operation>
+    <wsdl:operation name="syncTestInfo">
+      <wsdl:input wsaw:Action="urn:syncTestInfo" message="ns:syncTestInfoRequest" />
+      <wsdl:output wsaw:Action="urn:syncTestInfoResponse" message="ns:syncTestInfoResponse" />
+      <wsdl:fault wsaw:Action="urn:syncTestInfoerp_servicesInterruptedException" name="erp_servicesInterruptedException" message="ns:erp_servicesInterruptedException" />
+    </wsdl:operation>
+    <wsdl:operation name="syncCheckFinishAllStation">
+      <wsdl:input wsaw:Action="urn:syncCheckFinishAllStation" message="ns:syncCheckFinishAllStationRequest" />
+      <wsdl:output wsaw:Action="urn:syncCheckFinishAllStationResponse" message="ns:syncCheckFinishAllStationResponse" />
+      <wsdl:fault wsaw:Action="urn:syncCheckFinishAllStationerp_servicesInterruptedException" name="erp_servicesInterruptedException" message="ns:erp_servicesInterruptedException" />
+    </wsdl:operation>
+    <wsdl:operation name="beTrue">
+      <wsdl:input wsaw:Action="urn:beTrue" message="ns:beTrueRequest" />
+      <wsdl:output wsaw:Action="urn:beTrueResponse" message="ns:beTrueResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="syncOrderInfo">
+      <wsdl:input wsaw:Action="urn:syncOrderInfo" message="ns:syncOrderInfoRequest" />
+      <wsdl:output wsaw:Action="urn:syncOrderInfoResponse" message="ns:syncOrderInfoResponse" />
+      <wsdl:fault wsaw:Action="urn:syncOrderInfoerp_servicesInterruptedException" name="erp_servicesInterruptedException" message="ns:erp_servicesInterruptedException" />
+    </wsdl:operation>
+    <wsdl:operation name="syncInStockDocInfo">
+      <wsdl:input wsaw:Action="urn:syncInStockDocInfo" message="ns:syncInStockDocInfoRequest" />
+      <wsdl:output wsaw:Action="urn:syncInStockDocInfoResponse" message="ns:syncInStockDocInfoResponse" />
+      <wsdl:fault wsaw:Action="urn:syncInStockDocInfoerp_servicesInterruptedException" name="erp_servicesInterruptedException" message="ns:erp_servicesInterruptedException" />
+    </wsdl:operation>
+    <wsdl:operation name="syncIMEIInfo">
+      <wsdl:input wsaw:Action="urn:syncIMEIInfo" message="ns:syncIMEIInfoRequest" />
+      <wsdl:output wsaw:Action="urn:syncIMEIInfoResponse" message="ns:syncIMEIInfoResponse" />
+      <wsdl:fault wsaw:Action="urn:syncIMEIInfoerp_servicesInterruptedException" name="erp_servicesInterruptedException" message="ns:erp_servicesInterruptedException" />
+    </wsdl:operation>
+    <wsdl:operation name="syncSaveMidInfo">
+      <wsdl:input wsaw:Action="urn:syncSaveMidInfo" message="ns:syncSaveMidInfoRequest" />
+      <wsdl:output wsaw:Action="urn:syncSaveMidInfoResponse" message="ns:syncSaveMidInfoResponse" />
+      <wsdl:fault wsaw:Action="urn:syncSaveMidInfoerp_servicesInterruptedException" name="erp_servicesInterruptedException" message="ns:erp_servicesInterruptedException" />
+    </wsdl:operation>
+    <wsdl:operation name="syncSupplierInfo">
+      <wsdl:input wsaw:Action="urn:syncSupplierInfo" message="ns:syncSupplierInfoRequest" />
+      <wsdl:output wsaw:Action="urn:syncSupplierInfoResponse" message="ns:syncSupplierInfoResponse" />
+      <wsdl:fault wsaw:Action="urn:syncSupplierInfoerp_servicesInterruptedException" name="erp_servicesInterruptedException" message="ns:erp_servicesInterruptedException" />
+    </wsdl:operation>
+    <wsdl:operation name="syncProductOrderInfo">
+      <wsdl:input wsaw:Action="urn:syncProductOrderInfo" message="ns:syncProductOrderInfoRequest" />
+      <wsdl:output wsaw:Action="urn:syncProductOrderInfoResponse" message="ns:syncProductOrderInfoResponse" />
+      <wsdl:fault wsaw:Action="urn:syncProductOrderInfoerp_servicesInterruptedException" name="erp_servicesInterruptedException" message="ns:erp_servicesInterruptedException" />
+    </wsdl:operation>
+    <wsdl:operation name="syncOutStockDocInfo">
+      <wsdl:input wsaw:Action="urn:syncOutStockDocInfo" message="ns:syncOutStockDocInfoRequest" />
+      <wsdl:output wsaw:Action="urn:syncOutStockDocInfoResponse" message="ns:syncOutStockDocInfoResponse" />
+      <wsdl:fault wsaw:Action="urn:syncOutStockDocInfoerp_servicesInterruptedException" name="erp_servicesInterruptedException" message="ns:erp_servicesInterruptedException" />
+    </wsdl:operation>
+    <wsdl:operation name="syncCheckStation">
+      <wsdl:input wsaw:Action="urn:syncCheckStation" message="ns:syncCheckStationRequest" />
+      <wsdl:output wsaw:Action="urn:syncCheckStationResponse" message="ns:syncCheckStationResponse" />
+      <wsdl:fault wsaw:Action="urn:syncCheckStationerp_servicesInterruptedException" name="erp_servicesInterruptedException" message="ns:erp_servicesInterruptedException" />
+    </wsdl:operation>
+    <wsdl:operation name="syncAllotDocInfo">
+      <wsdl:input wsaw:Action="urn:syncAllotDocInfo" message="ns:syncAllotDocInfoRequest" />
+      <wsdl:output wsaw:Action="urn:syncAllotDocInfoResponse" message="ns:syncAllotDocInfoResponse" />
+      <wsdl:fault wsaw:Action="urn:syncAllotDocInfoerp_servicesInterruptedException" name="erp_servicesInterruptedException" message="ns:erp_servicesInterruptedException" />
+    </wsdl:operation>
+    <wsdl:operation name="syncSalesOrderInfo">
+      <wsdl:input wsaw:Action="urn:syncSalesOrderInfo" message="ns:syncSalesOrderInfoRequest" />
+      <wsdl:output wsaw:Action="urn:syncSalesOrderInfoResponse" message="ns:syncSalesOrderInfoResponse" />
+      <wsdl:fault wsaw:Action="urn:syncSalesOrderInfoerp_servicesInterruptedException" name="erp_servicesInterruptedException" message="ns:erp_servicesInterruptedException" />
+    </wsdl:operation>
+    <wsdl:operation name="syncCustomerInfo">
+      <wsdl:input wsaw:Action="urn:syncCustomerInfo" message="ns:syncCustomerInfoRequest" />
+      <wsdl:output wsaw:Action="urn:syncCustomerInfoResponse" message="ns:syncCustomerInfoResponse" />
+      <wsdl:fault wsaw:Action="urn:syncCustomerInfoerp_servicesInterruptedException" name="erp_servicesInterruptedException" message="ns:erp_servicesInterruptedException" />
+    </wsdl:operation>
+    <wsdl:operation name="syncMaterialInfo">
+      <wsdl:input wsaw:Action="urn:syncMaterialInfo" message="ns:syncMaterialInfoRequest" />
+      <wsdl:output wsaw:Action="urn:syncMaterialInfoResponse" message="ns:syncMaterialInfoResponse" />
+      <wsdl:fault wsaw:Action="urn:syncMaterialInfoerp_servicesInterruptedException" name="erp_servicesInterruptedException" message="ns:erp_servicesInterruptedException" />
+    </wsdl:operation>
+    <wsdl:operation name="replace">
+      <wsdl:input wsaw:Action="urn:replace" message="ns:replaceRequest" />
+      <wsdl:output wsaw:Action="urn:replaceResponse" message="ns:replaceResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="syncBomInfo">
+      <wsdl:input wsaw:Action="urn:syncBomInfo" message="ns:syncBomInfoRequest" />
+      <wsdl:output wsaw:Action="urn:syncBomInfoResponse" message="ns:syncBomInfoResponse" />
+      <wsdl:fault wsaw:Action="urn:syncBomInfoerp_servicesInterruptedException" name="erp_servicesInterruptedException" message="ns:erp_servicesInterruptedException" />
+    </wsdl:operation>
+    <wsdl:operation name="syncSetStation">
+      <wsdl:input wsaw:Action="urn:syncSetStation" message="ns:syncSetStationRequest" />
+      <wsdl:output wsaw:Action="urn:syncSetStationResponse" message="ns:syncSetStationResponse" />
+      <wsdl:fault wsaw:Action="urn:syncSetStationerp_servicesInterruptedException" name="erp_servicesInterruptedException" message="ns:erp_servicesInterruptedException" />
+    </wsdl:operation>
+    <wsdl:operation name="syncUploadParameters">
+      <wsdl:input wsaw:Action="urn:syncUploadParameters" message="ns:syncUploadParametersRequest" />
+      <wsdl:output wsaw:Action="urn:syncUploadParametersResponse" message="ns:syncUploadParametersResponse" />
+      <wsdl:fault wsaw:Action="urn:syncUploadParameterserp_servicesInterruptedException" name="erp_servicesInterruptedException" message="ns:erp_servicesInterruptedException" />
+    </wsdl:operation>
+    <wsdl:operation name="syncProductMaterialInfo">
+      <wsdl:input wsaw:Action="urn:syncProductMaterialInfo" message="ns:syncProductMaterialInfoRequest" />
+      <wsdl:output wsaw:Action="urn:syncProductMaterialInfoResponse" message="ns:syncProductMaterialInfoResponse" />
+      <wsdl:fault wsaw:Action="urn:syncProductMaterialInfoerp_servicesInterruptedException" name="erp_servicesInterruptedException" message="ns:erp_servicesInterruptedException" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="erp_servicesSoap11Binding" type="ns:erp_servicesPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="syncPurchaseOrderInfo">
+      <soap:operation soapAction="urn:syncPurchaseOrderInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="syncWarehouseInfo">
+      <soap:operation soapAction="urn:syncWarehouseInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="syncAccountAliasInfo">
+      <soap:operation soapAction="urn:syncAccountAliasInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="syncTestInfo">
+      <soap:operation soapAction="urn:syncTestInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="syncCheckFinishAllStation">
+      <soap:operation soapAction="urn:syncCheckFinishAllStation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="beTrue">
+      <soap:operation soapAction="urn:beTrue" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncOrderInfo">
+      <soap:operation soapAction="urn:syncOrderInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="syncInStockDocInfo">
+      <soap:operation soapAction="urn:syncInStockDocInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="syncIMEIInfo">
+      <soap:operation soapAction="urn:syncIMEIInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="syncSaveMidInfo">
+      <soap:operation soapAction="urn:syncSaveMidInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="syncSupplierInfo">
+      <soap:operation soapAction="urn:syncSupplierInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="syncOutStockDocInfo">
+      <soap:operation soapAction="urn:syncOutStockDocInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="syncProductOrderInfo">
+      <soap:operation soapAction="urn:syncProductOrderInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="syncAllotDocInfo">
+      <soap:operation soapAction="urn:syncAllotDocInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="syncCheckStation">
+      <soap:operation soapAction="urn:syncCheckStation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="syncSalesOrderInfo">
+      <soap:operation soapAction="urn:syncSalesOrderInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="syncCustomerInfo">
+      <soap:operation soapAction="urn:syncCustomerInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="syncMaterialInfo">
+      <soap:operation soapAction="urn:syncMaterialInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="replace">
+      <soap:operation soapAction="urn:replace" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncBomInfo">
+      <soap:operation soapAction="urn:syncBomInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="syncSetStation">
+      <soap:operation soapAction="urn:syncSetStation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="syncProductMaterialInfo">
+      <soap:operation soapAction="urn:syncProductMaterialInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="syncUploadParameters">
+      <soap:operation soapAction="urn:syncUploadParameters" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="erp_servicesSoap12Binding" type="ns:erp_servicesPortType">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="syncPurchaseOrderInfo">
+      <soap12:operation soapAction="urn:syncPurchaseOrderInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap12:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="syncWarehouseInfo">
+      <soap12:operation soapAction="urn:syncWarehouseInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap12:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="syncAccountAliasInfo">
+      <soap12:operation soapAction="urn:syncAccountAliasInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap12:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="syncTestInfo">
+      <soap12:operation soapAction="urn:syncTestInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap12:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="syncCheckFinishAllStation">
+      <soap12:operation soapAction="urn:syncCheckFinishAllStation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap12:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="beTrue">
+      <soap12:operation soapAction="urn:beTrue" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncOrderInfo">
+      <soap12:operation soapAction="urn:syncOrderInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap12:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="syncInStockDocInfo">
+      <soap12:operation soapAction="urn:syncInStockDocInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap12:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="syncIMEIInfo">
+      <soap12:operation soapAction="urn:syncIMEIInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap12:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="syncSaveMidInfo">
+      <soap12:operation soapAction="urn:syncSaveMidInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap12:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="syncSupplierInfo">
+      <soap12:operation soapAction="urn:syncSupplierInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap12:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="syncOutStockDocInfo">
+      <soap12:operation soapAction="urn:syncOutStockDocInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap12:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="syncProductOrderInfo">
+      <soap12:operation soapAction="urn:syncProductOrderInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap12:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="syncAllotDocInfo">
+      <soap12:operation soapAction="urn:syncAllotDocInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap12:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="syncCheckStation">
+      <soap12:operation soapAction="urn:syncCheckStation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap12:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="syncSalesOrderInfo">
+      <soap12:operation soapAction="urn:syncSalesOrderInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap12:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="syncCustomerInfo">
+      <soap12:operation soapAction="urn:syncCustomerInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap12:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="syncMaterialInfo">
+      <soap12:operation soapAction="urn:syncMaterialInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap12:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="replace">
+      <soap12:operation soapAction="urn:replace" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncBomInfo">
+      <soap12:operation soapAction="urn:syncBomInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap12:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="syncSetStation">
+      <soap12:operation soapAction="urn:syncSetStation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap12:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="syncProductMaterialInfo">
+      <soap12:operation soapAction="urn:syncProductMaterialInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap12:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="syncUploadParameters">
+      <soap12:operation soapAction="urn:syncUploadParameters" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="erp_servicesInterruptedException">
+        <soap12:fault use="literal" name="erp_servicesInterruptedException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="erp_servicesHttpBinding" type="ns:erp_servicesPortType">
+    <http:binding verb="POST" />
+    <wsdl:operation name="syncPurchaseOrderInfo">
+      <http:operation location="syncPurchaseOrderInfo" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncWarehouseInfo">
+      <http:operation location="syncWarehouseInfo" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncAccountAliasInfo">
+      <http:operation location="syncAccountAliasInfo" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncTestInfo">
+      <http:operation location="syncTestInfo" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncCheckFinishAllStation">
+      <http:operation location="syncCheckFinishAllStation" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="beTrue">
+      <http:operation location="beTrue" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncOrderInfo">
+      <http:operation location="syncOrderInfo" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncInStockDocInfo">
+      <http:operation location="syncInStockDocInfo" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncIMEIInfo">
+      <http:operation location="syncIMEIInfo" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncSaveMidInfo">
+      <http:operation location="syncSaveMidInfo" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncSupplierInfo">
+      <http:operation location="syncSupplierInfo" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncOutStockDocInfo">
+      <http:operation location="syncOutStockDocInfo" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncProductOrderInfo">
+      <http:operation location="syncProductOrderInfo" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncAllotDocInfo">
+      <http:operation location="syncAllotDocInfo" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncCheckStation">
+      <http:operation location="syncCheckStation" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncSalesOrderInfo">
+      <http:operation location="syncSalesOrderInfo" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncCustomerInfo">
+      <http:operation location="syncCustomerInfo" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncMaterialInfo">
+      <http:operation location="syncMaterialInfo" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="replace">
+      <http:operation location="replace" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncBomInfo">
+      <http:operation location="syncBomInfo" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncSetStation">
+      <http:operation location="syncSetStation" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncProductMaterialInfo">
+      <http:operation location="syncProductMaterialInfo" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncUploadParameters">
+      <http:operation location="syncUploadParameters" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="erp_services">
+    <wsdl:port name="erp_servicesHttpSoap11Endpoint" binding="ns:erp_servicesSoap11Binding">
+      <soap:address location="http://10.13.20.240:8077/N2/services/erp_services.erp_servicesHttpSoap11Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="erp_servicesHttpSoap12Endpoint" binding="ns:erp_servicesSoap12Binding">
+      <soap12:address location="http://10.13.20.240:8077/N2/services/erp_services.erp_servicesHttpSoap12Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="erp_servicesHttpEndpoint" binding="ns:erp_servicesHttpBinding">
+      <http:address location="http://10.13.20.240:8077/N2/services/erp_services.erp_servicesHttpEndpoint/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

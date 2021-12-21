@@ -1,0 +1,54 @@
+D:\实习\C#基础练习\CSharp_DataBase\CSharp_DataBase\bin\Release\CSharp_DataBase.dll.config
+D:\实习\C#基础练习\CSharp_DataBase\CSharp_DataBase\bin\Release\CSharp_DataBase.dll
+D:\实习\C#基础练习\CSharp_DataBase\CSharp_DataBase\bin\Release\CSharp_DataBase.pdb
+D:\实习\C#基础练习\CSharp_DataBase\CSharp_DataBase\bin\Release\Newtonsoft.Json.dll
+D:\实习\C#基础练习\CSharp_DataBase\CSharp_DataBase\obj\Release\CSharp_DataBase.Properties.Resources.resources
+D:\实习\C#基础练习\CSharp_DataBase\CSharp_DataBase\obj\Release\SwiftMES.IL.Client.csproj.GenerateResource.cache
+D:\实习\C#基础练习\CSharp_DataBase\CSharp_DataBase\obj\Release\SwiftMES.IL.Client.csproj.CoreCompileInputs.cache
+D:\实习\C#基础练习\CSharp_DataBase\CSharp_DataBase\obj\Release\SwiftMES.IL.Client.csproj.CopyComplete
+D:\实习\C#基础练习\CSharp_DataBase\CSharp_DataBase\obj\Release\CSharp_DataBase.dll
+D:\实习\C#基础练习\CSharp_DataBase\CSharp_DataBase\obj\Release\CSharp_DataBase.pdb
+D:\MES2\WebServices资料\InterLock_NPI_TEST Web Services\CSharp_DataBase\bin\Release\CSharp_DataBase.dll
+D:\MES2\WebServices资料\InterLock_NPI_TEST Web Services\CSharp_DataBase\bin\Release\CSharp_DataBase.pdb
+D:\MES2\WebServices资料\InterLock_NPI_TEST Web Services\CSharp_DataBase\bin\Release\Newtonsoft.Json.dll
+D:\MES2\WebServices资料\InterLock_NPI_TEST Web Services\CSharp_DataBase\obj\Release\CSharp_DataBase.Properties.Resources.resources
+D:\MES2\WebServices资料\InterLock_NPI_TEST Web Services\CSharp_DataBase\obj\Release\SwiftMES.IL.Client.csproj.GenerateResource.cache
+D:\MES2\WebServices资料\InterLock_NPI_TEST Web Services\CSharp_DataBase\obj\Release\SwiftMES.IL.Client.csproj.CoreCompileInputs.cache
+D:\MES2\WebServices资料\InterLock_NPI_TEST Web Services\CSharp_DataBase\obj\Release\SwiftMES.IL.Client.csproj.CopyComplete
+D:\MES2\WebServices资料\InterLock_NPI_TEST Web Services\CSharp_DataBase\obj\Release\CSharp_DataBase.dll
+D:\MES2\WebServices资料\InterLock_NPI_TEST Web Services\CSharp_DataBase\obj\Release\CSharp_DataBase.pdb
+D:\MES2\WebServices资料\InterLock_NPI_TEST Web Services\CSharp_DataBase\obj\Release\SwiftMES.IL.Client.csproj.AssemblyReference.cache
+D:\MES\InterLock_NPI_TEST Web Services\CSharp_DataBase\bin\Release\CSharp_DataBase.dll
+D:\MES\InterLock_NPI_TEST Web Services\CSharp_DataBase\bin\Release\CSharp_DataBase.pdb
+D:\MES\InterLock_NPI_TEST Web Services\CSharp_DataBase\bin\Release\Newtonsoft.Json.dll
+D:\MES\InterLock_NPI_TEST Web Services\CSharp_DataBase\obj\Release\CSharp_DataBase.Properties.Resources.resources
+D:\MES\InterLock_NPI_TEST Web Services\CSharp_DataBase\obj\Release\SwiftMES.IL.Client.csproj.GenerateResource.cache
+D:\MES\InterLock_NPI_TEST Web Services\CSharp_DataBase\obj\Release\SwiftMES.IL.Client.csproj.CoreCompileInputs.cache
+D:\MES\InterLock_NPI_TEST Web Services\CSharp_DataBase\obj\Release\SwiftMES.IL.Client.csproj.CopyComplete
+D:\MES\InterLock_NPI_TEST Web Services\CSharp_DataBase\obj\Release\CSharp_DataBase.dll
+D:\MES\InterLock_NPI_TEST Web Services\CSharp_DataBase\obj\Release\CSharp_DataBase.pdb
+D:\MES\InterLock_NPI_TEST Web Services\CSharp_DataBase\obj\Release\SwiftMES.IL.Client.csproj.AssemblyReference.cache
+E:\zj\LZ\LZNPI_WebServices\CSharp_DataBase\bin\Release\CSharp_DataBase.dll
+E:\zj\LZ\LZNPI_WebServices\CSharp_DataBase\bin\Release\CSharp_DataBase.pdb
+E:\zj\LZ\LZNPI_WebServices\CSharp_DataBase\bin\Release\Newtonsoft.Json.dll
+E:\zj\LZ\LZNPI_WebServices\CSharp_DataBase\obj\Release\SwiftMES.IL.Client.csproj.AssemblyReference.cache
+E:\zj\LZ\LZNPI_WebServices\CSharp_DataBase\obj\Release\CSharp_DataBase.Properties.Resources.resources
+E:\zj\LZ\LZNPI_WebServices\CSharp_DataBase\obj\Release\SwiftMES.IL.Client.csproj.GenerateResource.cache
+E:\zj\LZ\LZNPI_WebServices\CSharp_DataBase\obj\Release\SwiftMES.IL.Client.csproj.CoreCompileInputs.cache
+E:\zj\LZ\LZNPI_WebServices\CSharp_DataBase\obj\Release\SwiftMES.IL.Client.csproj.CopyComplete
+E:\zj\LZ\LZNPI_WebServices\CSharp_DataBase\obj\Release\CSharp_DataBase.dll
+E:\zj\LZ\LZNPI_WebServices\CSharp_DataBase\obj\Release\CSharp_DataBase.pdb
+E:\zj\LZ\LZNPI_WebServices\CSharp_DataBase\bin\Release\System.Net.Http.dll
+E:\zj\LZ\LZNPI_WebServices\CSharp_DataBase\bin\Release\Newtonsoft.Json.xml
+E:\zj\LZ\LZNPIOutTO_WebServices\CSharp_DataBase\bin\Release\CSharp_DataBase.dll
+E:\zj\LZ\LZNPIOutTO_WebServices\CSharp_DataBase\bin\Release\CSharp_DataBase.pdb
+E:\zj\LZ\LZNPIOutTO_WebServices\CSharp_DataBase\bin\Release\Newtonsoft.Json.dll
+E:\zj\LZ\LZNPIOutTO_WebServices\CSharp_DataBase\bin\Release\System.Net.Http.dll
+E:\zj\LZ\LZNPIOutTO_WebServices\CSharp_DataBase\bin\Release\Newtonsoft.Json.xml
+E:\zj\LZ\LZNPIOutTO_WebServices\CSharp_DataBase\obj\Release\SwiftMES.IL.Client.csproj.AssemblyReference.cache
+E:\zj\LZ\LZNPIOutTO_WebServices\CSharp_DataBase\obj\Release\CSharp_DataBase.Properties.Resources.resources
+E:\zj\LZ\LZNPIOutTO_WebServices\CSharp_DataBase\obj\Release\SwiftMES.IL.Client.csproj.GenerateResource.cache
+E:\zj\LZ\LZNPIOutTO_WebServices\CSharp_DataBase\obj\Release\SwiftMES.IL.Client.csproj.CoreCompileInputs.cache
+E:\zj\LZ\LZNPIOutTO_WebServices\CSharp_DataBase\obj\Release\SwiftMES.IL.Client.csproj.CopyComplete
+E:\zj\LZ\LZNPIOutTO_WebServices\CSharp_DataBase\obj\Release\CSharp_DataBase.dll
+E:\zj\LZ\LZNPIOutTO_WebServices\CSharp_DataBase\obj\Release\CSharp_DataBase.pdb
